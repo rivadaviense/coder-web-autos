@@ -1,0 +1,673 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(166, 205, 240);
+}
+.navegador{
+    background-color: aliceblue;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo{
+     width: 50px;
+    margin: 5px;
+   }
+
+.navegador ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+.navegador ul li{
+    position: relative;
+}
+
+.navegador ul li a{
+    display: block;
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.header{
+    background-image: url(../imagenes/header.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     
+}
+
+.header-info{
+    color: beige;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-info-titulo{
+    font-size: 100px;
+}
+
+.header-info-subtitulo{
+    font-size: 40px;
+}
+
+.cajabuscador{
+    background-color: aliceblue;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 300px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+  }
+    
+.publicadopor{
+    color: blue;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+   }
+.cajauno{
+    border: none;
+    border-radius: 10px;
+    border-color: blue;
+    color: blue;
+    font-size: 20px;
+    height: 35px;  
+    background-color: aqua;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cajados{
+    border: none;
+    border-radius: 10px;
+    border-color: blue;
+    color: blue;
+    font-size: 20px;
+    height: 35px;  
+    width: 500px;
+    background-color: aqua;
+    color: blue;
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cajadosboton{
+    color: white;
+    background-color: blue;
+    height: 35px;  
+    width: 95px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.autosusados{
+    background-color: blue;
+    width: 100%;
+    height: 70px;
+    margin-top: 50px;
+    padding: 15px;
+    color: aliceblue;
+    font-size: 50px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    }
+    
+.tarjetas{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 50px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    flex-direction: row;
+    row-gap: 10px;
+    align-items: center;
+    }
+
+.tarjeta-etiqueta{
+    width: 100%; 
+    height: 30px; 
+    color: aliceblue;
+    border-radius: none;
+    background: blue;
+    margin-top: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}    
+.tarjeta{
+    width: 350px;
+    padding: 10px;
+    background-color: white;
+    border-color: blue;
+    color: black;
+    border-radius: 15px;
+    display: block;
+    text-align: left;
+    border-color: black;
+    font-size: 20px;
+    box-shadow: 0px 0px 8px gray;
+    
+   }
+.tarjeta-precio{
+    margin: 10px;
+    color: blue;
+    text-align: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.tarjeta-foto{
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+ }
+
+ .btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+.separadornuevos{
+    color: blue;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    margin-top: 50px;
+    padding: 15px;
+    font-size: 50px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.contenedor-login{
+    margin: 20px auto;
+    background-color: blue;
+    width: 500px;
+    height: auto;
+    border: 2px solid blanchedalmond;
+    color: aliceblue;
+    border-radius: 10px;
+    display: block; 
+    justify-content: center;
+    align-content: center;
+  
+     }
+
+.caja-login{
+    display: flex;
+    margin-bottom: 20px;
+}     
+
+.login-titulo{
+    margin-top: 0%;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.formulario-registro{
+    padding: 10px;
+   
+            
+}
+   
+.label-login{
+    display: block;
+    width: 30%;
+  font-size: 20px;
+ }
+
+.input-login{
+    display: block;
+    width: 40%;
+    padding: 5px;
+}
+.caja-login{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
+   
+}
+.enviar{
+     background-color: antiquewhite;
+     color: blue;
+     height: 40px;
+     height: 30px;
+     border: none;
+     border-radius: 5px;
+     box-shadow: 0px 0px 8px gray;
+     padding: 5px;
+   
+    }
+.botones-login .enviar-1{
+    justify-content:space-evenly;
+    width: 80px;
+    display: flex;
+    margin-left: 50%;
+    margin-right: 50%;
+   
+
+}
+
+.buscador-paginas{
+  background-color: rgb(223, 223, 223);
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: center; 
+}
+
+.cajados-paginas{
+    width: 1000px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+}
+.autosusados-paginas{
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.cajadosboton-paginas{
+    width: 80px;
+    height: 30px;
+    padding: 10px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    font-size: 15px;
+}
+
+
+.filtros-autos{
+    display: flex;
+    width: 100%;
+    
+}
+
+.filtros-autos .autos-f{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.filtros-autos .autos-f{
+    margin-top: 15px;
+    background-color: beige;
+    width: 350px;
+    height: 550px;
+    padding: 10px;
+    border-radius: 25px;
+   justify-content: space-around;
+   }
+   
+.boton-filtro{
+    background-color:blue;
+    color:aliceblue;
+    height: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px gray;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.autos-f .titulo-filtros{
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+
+}
+
+.autos-f{
+    display: flex; 
+    justify-content:center;
+    align-content: center;
+    margin: 20px;
+   }
+
+.aside-tarjetas{
+top: 0%;
+margin-left: 5px;
+display: flex;
+column-gap: 20px;
+flex-wrap: wrap;
+flex-direction: row;
+align-content: center;
+justify-content: center;
+}
+
+.section-tarjetas{
+    background-color: rgb(251, 246, 246);
+    width: 100%;
+    height: 380px;
+    border: 1px solid blue;
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 15px;
+    }
+  
+
+.foto-auto-usado{
+    width: 250px;
+    height:auto;
+    overflow: hidden;
+ 
+}
+
+.etiqueta-tarjeta{
+    margin-top: 10px;
+    text-align: center;
+    background-color: blue;
+    color: antiquewhite;
+}
+
+.datos-tarjeta{
+    font-size: 20px;
+}
+.datos-tarjeta .precio{
+    margin-top: 10px;
+    color: blue;
+    background-color:aqua;
+    text-align: center;
+}
+
+.boton-tarjeta{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.label-filtros{
+    display: flex;
+    width: 30%;
+    font-size: 20px;
+    color: blue;
+}
+
+.cajas-filtros{
+    display: flex;
+    width: 50%;
+    padding: 5px;
+    color: blue;
+    margin-bottom: 10px
+    }
+
+.filtros-paginas{
+    display: flex;
+    margin-bottom: 20px
+}
+
+.boton-filtro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.datos-precio{
+    display: flex;
+    justify-content: center ;
+    
+ }
+ .datos-uno{
+    background-color: aliceblue;
+    width: 450px;
+    height: 150px;
+    margin-top: 10px;
+    border: 1px solid blue;
+  }
+
+ .datos-uno h3{
+    margin-top: 45px;
+    margin-left: 15px;
+    font-size: 30px;
+  
+ }
+ .datos-uno h4{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 25px;
+   }
+
+.datos-dos{
+    background-color: aliceblue;
+    width: 450px;
+    height: 150px;
+    margin-top: 10px;
+    border: 1px solid blue;
+}
+
+.datos-dos h3{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+}
+.datos-dos h4{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 35px;
+    color: blue;
+    text-align: center;
+}
+.fotos-auto-usado{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-grande{
+    border: 10px solid white;
+ }
+
+.foto-grande .dimension-foto{
+    width: 800px;
+    height: 550px;
+
+}
+
+.separadorusado-caracteristicas{
+    background-color: blue;
+    height: 50px;
+    margin-top: 10px;
+    color: aliceblue;
+    padding: 10px;
+   }
+.autosusados-caracteristicas{
+    font-size: 35px;
+}
+
+.tabla-auto{
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+   
+ 
+
+}
+.tabla-auto, tr, td{
+   border: none;
+    padding: 10px;
+    font-size: 40px;
+} 
+.auto-data{
+    background-color: aqua;
+}
+.auto-data-2{
+    background-color: aliceblue;
+}
+
+.tabla-contacto{
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    padding: 10px;
+    margin-top: 5px;
+}
+  
+ .boton-mensaje{
+    display: flex;
+    width: 250px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    padding: 10px;
+    top: 10px;
+    margin-left: 500px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;   
+  }
+ .enviar-mensaje {
+    font-size: 20px;
+   color: aliceblue;
+    text-decoration: none;  
+    text-align: right;
+}
+
+.logo-what{
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+     }  
+
+
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+    padding: 10px;
+    flex-direction: column;
+    bottom: 0%;
+ 
+}
+.info-consulta{
+    display: flex;
+    margin: 20px auto;
+    background-color: blue;
+    width: 500px;
+    height: 1000px;
+    border: 2px solid blanchedalmond;
+    color: aliceblue;
+    border-radius: 10px;
+    display: block; 
+    justify-content: center;
+    align-content: center;
+    }
+
+.formulario-contacto{
+    width: 450px;
+    height: auto;
+    padding: 25px;
+    }
+
+.info-consulta h2{
+text-align: center;
+margin-top: 10px;
+
+}
+
+.info-consulta p{
+    text-align: center;
+    font-size: 20PX;
+}
+
+input, textarea{
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    
+}
+
+textarea{
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    min-height: 250px;
+  
+}
+
+.boton-contacto{
+
+   min-width: none;
+    height: 100px;
+    background-color: beige;
+    color: blue;
+
+}
+
+.footer .derechos{
+    margin-top: 10px;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+}
+
+
+
+
