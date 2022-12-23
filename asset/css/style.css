@@ -603,58 +603,23 @@ justify-content: center;
     bottom: 0%;
  
 }
-.info-consulta{
-    display: flex;
-    margin: 20px auto;
+
+.formulario-bts{
+    margin: 15px auto; 
+    width: 40%;
+    padding: 15px;
     background-color: blue;
-    width: 500px;
-    height: 1000px;
-    border: 2px solid blanchedalmond;
+    border-radius: 30px;
     color: aliceblue;
-    border-radius: 10px;
-    display: block; 
-    justify-content: center;
-    align-content: center;
-    }
+   }
 
-.formulario-contacto{
-    width: 450px;
-    height: auto;
-    padding: 25px;
-    }
-
-.info-consulta h2{
-text-align: center;
-margin-top: 10px;
-
-}
-
-.info-consulta p{
+.formulario-bts-info{
     text-align: center;
-    font-size: 20PX;
+    font-size: 25px;
 }
 
-input, textarea{
-    width: 450px;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 17px;
-    
-}
-
-textarea{
-    justify-content: center;
-    align-items: center;
-    min-width: 150px;
-    min-height: 250px;
-  
-}
-
-.boton-contacto{
-
-   min-width: none;
-    height: 100px;
-    background-color: beige;
+.btn-primary{
+    background-color: aliceblue;
     color: blue;
 
 }
