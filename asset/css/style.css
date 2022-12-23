@@ -621,9 +621,17 @@ justify-content: center;
 .btn-primary{
     background-color: aliceblue;
     color: blue;
-
 }
 
+.carousel-usado{
+    width: 800px;
+    height: 600px;
+    margin: 15px auto;
+}
+
+.buscador-bts{
+    width: 40%;
+}
 .footer .derechos{
     margin-top: 10px;
     color: aliceblue;
