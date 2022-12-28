@@ -1,46 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NUEVOS-CC</title>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../asset/css/style.css">
-
 </head>
+
 <body>
-    <nav class="navegador">
-        <img src="../asset/imagenes/cccc.logo.png" alt="imagen del logo" srcset="" class="logo">
-           <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../paginas/usados.html"> Autos Usados</a></li>
-                <li><a href="../paginas/nuevos.html">Autos Nuevos</a></li>
-                <li><a href="../paginas/contactos.html">Contactos</a></li>
-                <li><a href="../paginas/login.html">Login</a></li>
-                <li><a href="../paginas/vende-tu-auto.html">VENDE TU AUTO</a></li>
-            </ul>
-</nav>
-</body>
-<header>
-    <section class="buscador-paginas">
-        <div class="buscador__paginas">
-            <form action="" method="post" class="formulariobuscador">
-                     
-                  <input class="cajados-paginas" type="search" name="buscador" id="" placeholder="Buscar por marca, año, modelo...">
-                   <input class="cajadosboton-paginas" type="submit" value="BUSCAR">
-        </div>
-    </section>
-    <div class="separadorusado-paginas">
-          <h3 class="autosusados-paginas">Autos Nuevos</h3>
-         </div>  
+    <nav class="navbar navbar-expand-md ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-Toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="../asset/imagenes/cccc.logo.png" width="80" alt="cc.logo" srcset="">
 
-</header>
-
-<FOoter class="footer">
-    <div class="derechos">
-            <h3>Todos los derechos reservados copyright 2022</h3>
+                    <div class="navbar-nav d-flex justify-content-center align-items-start">
+                        <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
+                        <a class="nav-link" aria-current="page" href="../paginas/usados.html">AUTOS USADOS</a>
+                        <a class="nav-link" aria-current="page" href="../paginas/nuevos.html">AUTOS NUEVOS</a>
+                        <a class="nav-link" aria-current="page" href="../paginas/contactos.html">CONTACTOS</a>
+                        <a class="nav-link" aria-current="page" href="../paginas/login.html">LOGIN</a>
+                        <a class="nav-link" aria-current="page" href="../paginas/vende-tu-auto.html">VENDE TU AUTO</a>
+                    </div>
             </div>
-     
+        </div>
+    </nav>
+    <header class="header-buscador ">
+        <div class="container-fluid col-sm-12 col-md-12 col-lg-4 col-xl-12">
+            <div class="input-group  buscador-bts ">
+                                <input type="text" class="form-control" placeholder="Buscar por marca, año, modelo..."
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-4 filtros-card" style="background-color: aqua;">
+                    <h5>FILTROS</h5>
+                    
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>PUBLICADO POR</option>
+                        <option value="1">INDIFERENTE</option>
+                        <option value="2">DUEÑO DIRECTO</option>
+                        <option value="3">CONCESIONARIA</option>
+                      </select>
+                
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>CIUDAD</option>
+                        <option value="1">INDIFERENTE</option>
+                        <option value="2">AMERICA</option>
+                        <option value="3">TRENQUE LAUQUEN</option>
+                        <option value="3">GRAL VILLEGAS</option>
+                      </select>
+                 
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>MARCA</option>
+                        <option value="1">INDIFERENTE</option>
+                        <option value="2">FORD</option>
+                        <option value="3">CHEVROLET</option>
+                        <option value="3">FIAT</option>
+                      </select>
 
-</FOoter>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>AÑO</option>
+                        <option value="1">INDIFERENTE</option>
+                        <option value="2">2022</option>
+                        <option value="3">2021</option>
+                        <option value="3">2020</option>
+                      </select>
+                      
+                        <button type="button" class="btn btn-primary">Buscar</button>
+                   </div>          
+            
+       
+            <div class=" container col-8">
+                <div class="row gy-3 my-3">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../asset/imagenes/fit-chico.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Honda Fit 1.4 Lx-l Mt 100cv</h5>
+                              <p class="card-text">2015 • 42.491 km • Manual • América</p>
+                              <h4>PRECIO: $ 3.550.000</h4>
+                              <a href="../paginas/auto.usados.html" class="btn btn-primary">ver mas</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../asset/imagenes/fit-chico.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Honda Fit 1.4 Lx-l Mt 100cv</h5>
+                              <p class="card-text">2015 • 42.491 km • Manual • América</p>
+                              <h4>PRECIO: $ 3.550.000</h4>
+                              <a href="../paginas/auto.usados.html" class="btn btn-primary">ver mas</a>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../asset/imagenes/fit-chico.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Honda Fit 1.4 Lx-l Mt 100cv</h5>
+                              <p class="card-text">2015 • 42.491 km • Manual • América</p>
+                              <h4>PRECIO: $ 3.550.000</h4>
+                              <a href="../paginas/auto.usados.html" class="btn btn-primary">ver mas</a>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../asset/imagenes/fit-chico.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Honda Fit 1.4 Lx-l Mt 100cv</h5>
+                              <p class="card-text">2015 • 42.491 km • Manual • América</p>
+                              <h4>PRECIO: $ 3.550.000</h4>
+                              <a href="../paginas/auto.usados.html" class="btn btn-primary">ver mas</a>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+                     
+            
+        </div>
+    </main>    
+
+    <footer class="footer">
+        <div class="derechos">
+            <h3>Todos los derechos reservados copyright 2022</h3>
+        </div>
+    </footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
 </html>
