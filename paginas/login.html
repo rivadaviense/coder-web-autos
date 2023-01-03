@@ -5,84 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5089ddf92e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../asset/css/style.css">
 
 </head>
 <body>
-    <nav class="navegador">
-        <img src="../asset/imagenes/cccc.logo.png" alt="imagen del logo" srcset="" class="logo">
-           <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../paginas/usados.html"> Autos Usados</a></li>
-                <li><a href="../paginas/nuevos.html">Autos Nuevos</a></li>
-                <li><a href="../paginas/contactos.html">Contactos</a></li>
-                <li><a href="../paginas/login.html">Login</a></li>
-                <li><a href="../paginas/vende.tu.auto.html">VENDE TU AUTO</a></li>
-            </ul>
-    </nav>
-</body>
-
-
-
-    <MAIn>
-        <div class="contenedor-login">
-            <form action="" method="post" class="formulario-registro">
-                <H2 class="login-titulo"> INGRESE SUS DATOS</H2>
-                <div class="caja-login">
-                   <label class="label-login" NOMBRE> Nombre:  </label>
-                        <input class="input-login" type="text" name="NOMBRE" placeholder="Ingrese un nombre" required>
-                 
-                </div>
-                <div class="caja-login">
-                   <label  class="label-login" APELLIDO> Apellido:</label>
-                         <input class="input-login" type="text" name="apellido" id="" placeholder="ingrese su apellido" required>
-                   
-                </div>
-                <div class="caja-login" >
-                    <label class="label-login" NOMBRE DE USUARIO> Nombre de usuario: </label>
-                        <input class="input-login" type="text" name="nombre de usuario" id="" placeholder="ingrese su nombre de usuario" required>
-                   
-                 </div>
-                 <div class="caja-login">
-                    <label class="label-login" FECHA DE NACIMIENTO> Fecha de Nacimiento:</label>
-                        <input class="input-login" type="date" name="Fecha de nacimiento" id="" required>
-                    
-                    </div> 
-                <div class="caja-login">
-                    <label class="label-login"> Mail:</label>
-                         <input class="input-login"  class="input-login" type="mail" placeholder="ingrese su mail" required>
-                    </div>   
-                    <div class="caja-login"> 
-                    <label class="label-login"> Ciudad:</label> 
-                    <input class="input-login"  type="ciudad" name="ciudad" id="" placeholder="ingrese su ciudad" required>
-                    </div> 
-                
-                    <div class="caja-login">
-                    <label class="label-login" > Contraseña:</label>
-                    <input class="input-login" type="password" name="contraseña" id="" placeholder="ingrese su contraseña" required>
-                    </div>
-
-                    <div class="botones-login">
-                       <input type="submit" value="ENVIAR" class="enviar-1">
-                   
-                       <input type="reset" value="RESET" class="enviar-1" >
-
-                     </div>
-               
-            </form>
-                  
+    <nav class="navbar navbar-expand-md ">
+        <div class="container-fluid" >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-Toggler">
+            <a class="navbar-brand" href="#">
+            <img src="../asset/imagenes/cccc.logo.png" width="80" alt="cc.logo" srcset="">
+            
+            <div class="navbar-nav d-flex justify-content-center align-items-start"> 
+                <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
+                <a class="nav-link" aria-current="page" href="../paginas/usados.html">AUTOS USADOS</a>
+                <a class="nav-link" aria-current="page" href="../paginas/nuevos.html">AUTOS NUEVOS</a>
+                <a class="nav-link" aria-current="page" href="../paginas/contactos.html">CONTACTOS</a>
+                <a class="nav-link" aria-current="page" href="../paginas/login.html">LOGIN</a>
+                <a class="nav-link" aria-current="page" href="../paginas/vende.tu.auto.html">VENDE TU AUTO</a>
+            </div>
+           </div>
         </div>
-        
-    </MAIn>
-    <ASide>
-
-    </ASide>
-    <FOoter class="footer">
-        <div class="derechos">
-                <h3>Todos los derechos reservados copyright 2022</h3>
+    </nav>
+    <main>
+        <div class="container justify-content-center align-items-center contenedor-login">
+            <div class="row ">
+                <div class="col-12">
+                    <p class="text-center p-2">INGRESE SUS DATOS</p>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">NOMBRE Y APELLIDO</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre y apellido" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">INGRESE SU E-MAIL</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-MAIL" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">USUARIO</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="USUARIO" required>
+                    </div>
+                    <div class="mb-3">CONTRASEÑA</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="ingrese su contraseña" required>
+                    </div>
+                    <button type="submit" class="btn btn-secondary p-2">ENVIAR</button>
                 </div>
-         
+            </div>
 
-    </FOoter>
+
+        </div>
+       </div>
+    </main>
+    <footer>
+        <div class="container-fluid text-center footer_bts ">
+            <div class="row p-5 pb-2 " style="background-color: blue;">
+                <div class="col-xs-12 col-md-6 col-lg-3 footer_text ">
+                    <img src="../asset/imagenes/cccc.logo.png" width="80" alt="cc.logo" srcset="">
+                    <h4>América, Rivadavia</h4>
+                    <h5>Provincia de Buenos Aires</h5>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="footer_text mb-3" >AUTOS</p>
+                    <div class="mb-2">
+                    <a class="footer_text" href="./paginas/usados.html">Autos usados</a>
+                     </div>
+                     <div class="mb-2">
+                    <a class="footer_text" href="./paginas/nuevos.html">Autos nuevos</a>
+                     </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 ">
+                    <p class="footer_text mb-3" >CONTACTOS</p>
+                    <div class="mb-2">
+                        <a class="footer_text" href="./paginas/contactos.html">Formulario de contactos</a>
+                    </div>
+                       
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="footer_text mb-3" >NUESTRAS REDES SOCIALES</p>
+                    <div class="mb-2">
+                    <i class="fa-brands fa-facebook footer_text"> </i>
+                    </div>
+                    <div class="mb-2">
+                    <i class="fa-brands fa-instagram footer_text"></i>
+                     </div>
+                     <div class="mb-2">
+                    <i class="fa-brands fa-twitter footer_text "></i>
+                     </div>
+                </div>
+                <div class=" col-sx-12 text-center pt-4 footer_text">
+                    <p>Todos los derechos reservados copyright 2022</p>
+                </div>
+            </div> 
+        </div>
+    </footer>
     
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>   
 </html>

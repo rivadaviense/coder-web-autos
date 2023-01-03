@@ -4,183 +4,196 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CLASICAR</title>
-    <link rel="stylesheet" href="./asset/css/style.css">
-   
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5089ddf92e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../asset/css/style.css">
+    
 </head>
 <body>
-   <nav class="navegador">
-     <img src="./asset/imagenes/cccc.logo.png" alt="imagen del logo" srcset="" class="logo">
-        <ul>
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./paginas/usados.html"> Autos Usados</a></li>
-          <li><a href="./paginas/nuevos.html">Autos Nuevos</a></li>
-          <li><a href="./paginas/contactos.html">Contactos</a></li>
-          <li><a href="./paginas/login.html">Login</a></li>
-          <li><a href="./paginas/vende.tu.auto.html">VENDE TU AUTO</a></li>
-        </ul>
-         </nav>
-    
-      
-<header class="header">
-    <div class="header-info">
+    <nav class="navbar navbar-expand-md ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-Toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="../asset/imagenes/cccc.logo.png" width="80" alt="cc.logo" srcset="">
+
+                    <div class="navbar-nav d-flex justify-content-center align-items-start">
+                        <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
+                        <a class="nav-link" aria-current="page" href="../paginas/usados.html">AUTOS USADOS</a>
+                        <a class="nav-link" aria-current="page" href="../paginas/nuevos.html">AUTOS NUEVOS</a>
+                        <a class="nav-link" aria-current="page" href="../paginas/contactos.html">CONTACTOS</a>
+                        <a class="nav-link" aria-current="page" href="../paginas/login.html">LOGIN</a>
+                        <a class="nav-link" aria-current="page" href="../paginas/vende.tu.auto.html">VENDE TU AUTO</a>
+                    </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+      <div class="fondo_header justify-content-center text-center align-items-center" style="background-color: aliceblue;">
         <h1 class="header-info-titulo">CLASI CAR</h1>
         <P class="header-info-subtitulo"><strong>AHORA VENDER TU AUTO ES MÁS FÁCIL Y RÁPIDO</strong></P>
-    </div>
-                
-     <div class="cajabuscador">
-        <form action="" method="post" class="formulariobuscador">
-          <label class="publicadopor">PUBLICADO POR:</label>
-          <select class="cajauno"name="cajauno" id="">Publicado Por:   
-             <option value="">Indiferente</option>
-                                <option value="">Dueño Directo</option>
-                                <option value="">Concesionaria</option>
-                                </select>
-                                        
-                                <label class="publicadopor">CIUDAD:</label>
-                                <select class="cajauno"name="cajauno" id="">Publicado Por:   
-                                <option value="">Indiferente</option>
-                                <option value="">América</option>
-                                <option value="">Trenque Lauquen</option>
-                                <option value="">General Villegas</option>
-                                </select>
-                        
-                        
-                                <input class="cajados" type="search" name="buscador" id="" placeholder="Buscar por marca, año, modelo...">
-                                <input class="cajadosboton" type="submit" value="BUSCAR">
-        </form>                                    
-     </div>
-                        
-</header>                 
-
-        <main>
-         <div class="separadorusado">
-          <h3 class="autosusados">Autos Usados</h3>
-         </div>     
-          <section class="tarjetas">
-                <div class="tarjeta">
-                     <div class="tarjeta-etiqueta">
-                            <h4>DUEÑO DIRECTO</h4>
-                      </div>         
-                    <img class="tarjeta-foto" src="./asset/imagenes/fit-chico.jpg" alt="fotodeautousado" srcset="">
-                    <div class="tarjeta-info">
-                            <h3>Honda Fit 1.4 Lx-l Mt 100cv</h3>
-                            <h4>2015 • 42.491 km • Manual • América</h4>
-                            <h2 class="tarjeta-precio">PRECIO: $ 3.550.000</h2>
-                            <a class="btn" href="./paginas/auto.usados.html"> VER MAS</a>
-                    </div>
-                 </div>
-
-                 <div class="tarjeta">
-                  <div class="tarjeta-etiqueta">
-                         <h4>DUEÑO DIRECTO</h4>
-                   </div>         
-                 <img class="tarjeta-foto" src="./asset/imagenes/fit-chico.jpg" alt="fotodeautousado" srcset="">
-                 <div class="tarjeta-info">
-                         <h3>Honda Fit 1.4 Lx-l Mt 100cv</h3>
-                         <h4>2015 • 42.491 km • Manual • América</h4>
-                         <h2 class="tarjeta-precio">PRECIO: $ 3.550.000</h2>
-                         <a class="btn" href="./paginas/auto.usados.html"> VER MAS</a>
-                 </div>
-              </div>
-
-              <div class="tarjeta">
-                <div class="tarjeta-etiqueta">
-                       <h4>DUEÑO DIRECTO</h4>
-                 </div>         
-               <img class="tarjeta-foto" src="./asset/imagenes/fit-chico.jpg" alt="fotodeautousado" srcset="">
-               <div class="tarjeta-info">
-                       <h3>Honda Fit 1.4 Lx-l Mt 100cv</h3>
-                       <h4>2015 • 42.491 km • Manual • América</h4>
-                       <h2 class="tarjeta-precio">PRECIO: $ 3.550.000</h2>
-                       <a class="btn" href="./paginas/auto.usados.html"> VER MAS</a>
-               </div>
-            </div>
-
-            <div class="tarjeta">
-              <div class="tarjeta-etiqueta">
-                     <h4>DUEÑO DIRECTO</h4>
-               </div>         
-             <img class="tarjeta-foto" src="./asset/imagenes/fit-chico.jpg" alt="fotodeautousado" srcset="">
-             <div class="tarjeta-info">
-                     <h3>Honda Fit 1.4 Lx-l Mt 100cv</h3>
-                     <h4>2015 • 42.491 km • Manual • América</h4>
-                     <h2 class="tarjeta-precio">PRECIO: $ 3.550.000</h2>
-                     <a class="btn" href="./paginas/auto.usados.html"> VER MAS</a>
-             </div>
-          </div>
-           </section>
-                               
-           <div class="separadornuevos">
-            <h3 class="autonuevos">Autos Nuevos</h3>
-           </div> 
-           <section class="tarjetas">
-                <div class="tarjeta">
-                     <div class="tarjeta-etiqueta">
-                            <h4>CONCESIONARIA</h4>
-                      </div>         
-                    <img class="tarjeta-foto" src="./asset/imagenes/HONDA FIT.webp" alt="fotodeautousado" srcset="">
-                    <div class="tarjeta-info">
-                            <h3>Honda Fit 1.4 Lx-l Mt 100cv</h3>
-                            <h4>2015 • 42.491 km • Manual • América</h4>
-                            <h2 class="tarjeta-precio">PRECIO: $ 3.550.000</h2>
-                            <a class="btn" href="./paginas/auto.usado.html"> VER MAS</a>
-                    </div>
-                 </div>
-
-                 <div class="tarjeta">
-                  <div class="tarjeta-etiqueta">
-                         <h4>CONCESIONARIA</h4>
-                   </div>         
-                 <img class="tarjeta-foto" src="./asset/imagenes/HONDA FIT.webp" alt="fotodeautousado" srcset="">
-                 <div class="tarjeta-info">
-                         <h3>Honda Fit 1.4 Lx-l Mt 100cv</h3>
-                         <h4>2015 • 42.491 km • Manual • América</h4>
-                         <h2 class="tarjeta-precio">PRECIO: $ 3.550.000</h2>
-                         <a class="btn" href="./paginas/auto.usado.html"> VER MAS</a>
-                 </div>
-              </div>
-
-              <div class="tarjeta">
-                <div class="tarjeta-etiqueta">
-                       <h4>CONCESIONARIA</h4>
-                 </div>         
-               <img class="tarjeta-foto" src="./asset/imagenes/HONDA FIT.webp" alt="fotodeautousado" srcset="">
-               <div class="tarjeta-info">
-                       <h3>Honda Fit 1.4 Lx-l Mt 100cv</h3>
-                       <h4>2015 • 42.491 km • Manual • América</h4>
-                       <h2 class="tarjeta-precio">PRECIO: $ 3.550.000</h2>
-                       <a class="btn" href="./paginas/auto.usado.html"> VER MAS</a>
-               </div>
-            </div>
-
-            <div class="tarjeta">
-              <div class="tarjeta-etiqueta">
-                     <h4>CONCESIONARIA</h4>
-               </div>         
-             <img class="tarjeta-foto" src="./asset/imagenes/HONDA FIT.webp" alt="fotodeautousado" srcset="">
-             <div class="tarjeta-info">
-                     <h3>Honda Fit 1.4 Lx-l Mt 100cv</h3>
-                     <h4>2015 • 42.491 km • Manual • América</h4>
-                     <h2 class="tarjeta-precio">PRECIO: $ 3.550.000</h2>
-                     <a class="btn" href="./paginas/auto.usado.html"> VER MAS</a>
-             </div>
-          </div>
-           </section>
-
-
-
+      </div>
+      <div class="container text-center" >
+        <div class="row justify-content-center align-items-center">
+          <div class="col-xl-12 col-md-6 col-lg-3 col-xl-12 mb-3">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>PUBLICADO POR</option>
+                <option value="1">INDIFERENTE</option>
+                <option value="2">DUEÑO DIRECTO</option>
+                <option value="3">CONCESIONARIA</option>
+              </select>
         
-      </main>
-    <aside>
-      
-    </aside>
-    <footer class="footer">
-        <div class="derechos">
-                <h3>Todos los derechos reservados copyright 2022</h3>
-                </div>
-         
+          </div>
+          <div class="col-xl-12 col-md-6 col-lg-3 col-xl-12 mb-3">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>CIUDAD</option>
+                <option value="1">INDIFERENTE</option>
+                <option value="2">AMERICA</option>
+                <option value="3">TRENQUE LAUQUEN</option>
+                <option value="3">GRAL VILLEGAS</option>
+              </select>
+          </div>
+          <div class="col-xl-12 col-md-6 col-lg-3 col-xl-12 mb-3">
+            <input type="text" class="form-control" placeholder="Buscar por marca, año, modelo..." aria-label="Recipient's username" aria-describedby="button-addon2">
+          </div>
+          <div class="col mb-3">
+                <button type="button" class="btn btn-primary">BUSCAR</button>
+          </div>
+      </div>
+    </header>
+    <main>
+        <div class="sepa_pp justify-content-center text-center">
+            <h4> AUTOS USADOS</h4>
+        </div>
+        <div class="container ">
+                <div class="row p-5">
+                        <div class="col mb-3">
+                                <div class="card" style="width: 18rem;">
+                                        <img src="../asset/imagenes/fit-chico.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Honda Fit 1.4 Lx-l Mt 100cv</h5>
+                                          <p class="card-text">2015 • 42.491 km • Manual • América</p>
+                                          <h4>PRECIO: $ 3.550.000</h4>
+                                          <a href="../paginas/auto.usados.html" class="btn btn-primary">ver mas</a>
+                                        </div>
+                                      </div>
+                        </div>
+                        <div class="col  mb-3">
+                                <div class="card" style="width: 18rem;">
+                                        <img src="../asset/imagenes/fit-chico.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Honda Fit 1.4 Lx-l Mt 100cv</h5>
+                                          <p class="card-text">2015 • 42.491 km • Manual • América</p>
+                                          <h4>PRECIO: $ 3.550.000</h4>
+                                          <a href="../paginas/auto.usados.html" class="btn btn-primary">ver mas</a>
+                                        </div>
+                                      </div>
+                        </div>
+                        <div class="col col-mb3">
+                                <div class="card" style="width: 18rem;">
+                                        <img src="../asset/imagenes/fit-chico.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Honda Fit 1.4 Lx-l Mt 100cv</h5>
+                                          <p class="card-text">2015 • 42.491 km • Manual • América</p>
+                                          <h4>PRECIO: $ 3.550.000</h4>
+                                          <a href="../paginas/auto.usados.html" class="btn btn-primary">ver mas</a>
+                                        </div>
+                                      </div>
+                        </div>
 
+                </div>
+        </div>
+        <div class="sepa_pp justify-content-center text-center">
+            <h4> AUTOS NUEVOS</h4>
+        </div>  
+        <div class="container ">
+                <div class="row p-5">
+                        <div class="col mb-3">
+                                <div class="card" style="width: 18rem;">
+                                        <img src="../asset/imagenes/fit-chico.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Honda Fit 1.4 Lx-l Mt 100cv</h5>
+                                          <p class="card-text">2015 • 42.491 km • Manual • América</p>
+                                          <h4>PRECIO: $ 3.550.000</h4>
+                                          <a href="../paginas/auto.usados.html" class="btn btn-primary">ver mas</a>
+                                        </div>
+                                      </div>
+                        </div>
+                        <div class="col  mb-3">
+                                <div class="card" style="width: 18rem;">
+                                        <img src="../asset/imagenes/fit-chico.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Honda Fit 1.4 Lx-l Mt 100cv</h5>
+                                          <p class="card-text">2015 • 42.491 km • Manual • América</p>
+                                          <h4>PRECIO: $ 3.550.000</h4>
+                                          <a href="../paginas/auto.usados.html" class="btn btn-primary">ver mas</a>
+                                        </div>
+                                      </div>
+                        </div>
+                        <div class="col col-mb3">
+                                <div class="card" style="width: 18rem;">
+                                        <img src="../asset/imagenes/fit-chico.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Honda Fit 1.4 Lx-l Mt 100cv</h5>
+                                          <p class="card-text">2015 • 42.491 km • Manual • América</p>
+                                          <h4>PRECIO: $ 3.550.000</h4>
+                                          <a href="../paginas/auto.usados.html" class="btn btn-primary">ver mas</a>
+                                        </div>
+                                      </div>
+                        </div>
+
+
+         
+            
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid text-center footer_bts ">
+            <div class="row p-5 pb-2 " style="background-color: blue;">
+                <div class="col-xs-12 col-md-6 col-lg-3 footer_text ">
+                    <img src="../asset/imagenes/cccc.logo.png" width="80" alt="cc.logo" srcset="">
+                    <h4>América, Rivadavia</h4>
+                    <h5>Provincia de Buenos Aires</h5>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="footer_text mb-3" >AUTOS</p>
+                    <div class="mb-2">
+                    <a class="footer_text" href="./paginas/usados.html">Autos usados</a>
+                     </div>
+                     <div class="mb-2">
+                    <a class="footer_text" href="./paginas/nuevos.html">Autos nuevos</a>
+                     </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 ">
+                    <p class="footer_text mb-3" >CONTACTOS</p>
+                    <div class="mb-2">
+                        <a class="footer_text" href="./paginas/contactos.html">Formulario de contactos</a>
+                    </div>
+                       
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="footer_text mb-3" >NUESTRAS REDES SOCIALES</p>
+                    <div class="mb-2">
+                    <i class="fa-brands fa-facebook footer_text"> </i>
+                    </div>
+                    <div class="mb-2">
+                    <i class="fa-brands fa-instagram footer_text"></i>
+                     </div>
+                     <div class="mb-2">
+                    <i class="fa-brands fa-twitter footer_text "></i>
+                     </div>
+                </div>
+                <div class=" col-sx-12 text-center pt-4 footer_text">
+                    <p>Todos los derechos reservados copyright 2022</p>
+                </div>
+            </div> 
+        </div>
     </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
