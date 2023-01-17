@@ -1,228 +1,295 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* .navbar .nav-link {
+  color: aliceblue;
 }
 
-body{
-    background-color: rgb(166, 205, 240);
+.navbar {
+  padding: 10px;
+  background-color: rgb(18, 10, 231);
+}
+.navbar .nav-link {
+  color: aliceblue;
+}
+.navbar .nav-item {
+  color: blue;
+}
+.navbar nav.toggler {
+  color: rgb(3, 117, 216);
+}
+@media screen and (max-width: 767px) {
+  .navbar .navbar .navbar-brand {
+    display: none;
+  }
 }
 
-/*-----navegador con bts-------*/
+.sepa_pp {
+  background-color: blue;
+  width: auto;
+  height: 50px;
+  color: aliceblue;
+  padding: 15px;
+  font-size: 45px;
+  margin-top: 15px;
+}
+.sepa_pp .separador-bts h4 {
+  font-size: 20px;
+  color: aliceblue;
+}
 
-.navbar{
-    padding: 10px;
-    background-color: blue;
-}
-.navbar-collapse{
-    align-items: center;
-    justify-content: space-between;
-}
-.navbar-toggler{
-    color: aliceblue;
+.boton-wht {
+  padding: 15px;
+  margin: 15px auto;
+  background-color: darkgreen;
+  font-size: 20px;
 }
 
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 10px;
+  background-color: blue;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.header-buscador {
+  padding: 5px;
+  height: 50px;
+  background-color: rgb(223, 223, 223);
+}
+.header-buscador .buscador-bts {
+  width: 70%;
+  margin: auto;
+}
+
+.contenedor-login {
+  margin: 20px auto;
+  background-color: blue;
+  width: 50% px;
+  height: auto;
+  border: 2px solid blanchedalmond;
+  color: aliceblue;
+  border-radius: 10px;
+  display: block;
+  justify-content: center;
+  align-content: center;
+}
+
+ormulario-bts {
+  margin: 15px auto;
+  width: 80%;
+  padding: 10px;
+  background-color: blue;
+  border-radius: 30px;
+  color: aliceblue;
+}
+ormulario-bts .formulario-bts-info {
+  text-align: center;
+  font-size: 25px;
+}
+
+.separadorusado-caracteristicas {
+  background-color: blue;
+  height: 50px;
+  margin-top: 10px;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.carousel-usado {
+  width: auto;
+  height: auto;
+  margin: 15px auto;
+}
+
+.caja-datos {
+  margin-top: 5px;
+  background-color: aliceblue;
+  border: 3px solid blue;
+}
+
+body {
+  background-color: rgb(166, 205, 240);
+}
+
+.footer_text {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(166, 205, 240);
+}
+
+.navbar {
+  padding: 10px;
+  background-color: rgb(18, 10, 231);
+}
+
+.navbar .nav-link {
+  color: aliceblue;
+}
+
+.navbar .nav-item {
+  color: blue;
+}
+
+.navbar nav.toggler {
+  color: rgb(3, 117, 216);
+}
 
 @media screen and (max-width: 767px) {
-    .navbar-brand{
+  .navbar .navbar-brand {
     display: none;
-    }
+  }
 }
- 
-.nav-link{
-    color: aliceblue;
-}
-
-/*----- header con bts-------*/
-
-.fondo_header{
-    background-image: url(../imagenes/header.jpg);
-    background-size: cover;
-    color: aliceblue;
-}
-
 /*-----separador con bts-------*/
-.sepa_pp{
-    background-color: blue;
-    width: auto;
-    height: 50px;
-    color: aliceblue;
-    padding: 15px;
-    font-size: 45px;
-    margin-top: 15px;
+.sepa_pp {
+  background-color: blue;
+  width: auto;
+  height: 50px;
+  color: aliceblue;
+  padding: 15px;
+  font-size: 45px;
+  margin-top: 15px;
 }
-
-
-
 
 /*-----buscador header con bts-------*/
-.header-buscador{
-    padding: 5px;
-    height: 50px;
-    background-color: rgb(223, 223, 223);
-    }
-    
-.buscador-bts{
-    width: 70%;
-   margin: auto;
-   
-}
-    
-.separador-bts{
-    width: 100%;
-    height: 25px;
-    margin-top: 8px;
-    background-color: blue;
-
+.header-buscador {
+  padding: 5px;
+  height: 50px;
+  background-color: rgb(223, 223, 223);
 }
 
-.header-logo{
-    width: 100%;
-    height: 250px;
-
-}
-.separador-bts h4{
-    font-size: 20px;
-    color: aliceblue;
-   
+.buscador-bts {
+  width: 70%;
+  margin: auto;
 }
 
-.caja-datos{
-    margin-top: 5px;
-    background-color: aliceblue;
-    border: 3px solid blue;
-
+.separador-bts h4 {
+  font-size: 20px;
+  color: aliceblue;
 }
 
-.filtros-card{
-    height: 800px;
-    padding: 25px;
-   
-  
-
-}
-.boton-wht{
-    padding: 15px;
-    margin: 15px auto;
-    background-color: darkgreen;
-    font-size: 20px;
-
+.caja-datos {
+  margin-top: 5px;
+  background-color: aliceblue;
+  border: 3px solid blue;
 }
 
-.boton-mensaje{
-    display: flex;
-    width: 250px;
-    background-color: darkgreen;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 15px auto;
-    align-items: center;
-    align-content: center;   
-  }
- .enviar-mensaje {
-    font-size: 20px;
-   color: aliceblue;
-    text-decoration: none;  
-    text-align: right;
+.filtros-card {
+  height: 800px;
+  padding: 25px;
 }
 
-.header-info{
-    color: beige;
-    justify-content: center;
-    align-items: center;
-
+.boton-wht {
+  padding: 15px;
+  margin: 15px auto;
+  background-color: darkgreen;
+  font-size: 20px;
 }
 
-.header-info-titulo{
-    font-size: 100px;
+.fondo_header {
+  background-image: url(../imagenes/header.jpg);
+  background-size: cover;
+  color: aliceblue;
 }
 
-.header-info-subtitulo{
-    font-size: 40px;
+.header-info {
+  color: beige;
+  justify-content: center;
+  align-items: center;
 }
 
-.btn{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px 10px;
-    background-color: blue;
-    color: aliceblue;
-    border: none;
-    border-radius: 5px;
-    width: 100px;
-    text-align: center;
-    font-size: 15px;
-    text-decoration: none;
-  }
+.header-info-titulo {
+  font-size: 100px;
+}
 
+.header-info-subtitulo {
+  font-size: 40px;
+}
+
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 10px;
+  background-color: blue;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+}
 
 /*-----login con bts-------*/
-.contenedor-login{
-    margin: 20px auto;
-    background-color: blue;
-    width: 50%px;
-    height: auto;
-    border: 2px solid blanchedalmond;
-    color: aliceblue;
-    border-radius: 10px;
-    display: block; 
-    justify-content: center;
-    align-content: center;
-  
+.contenedor-login {
+  margin: 20px auto;
+  background-color: blue;
+  width: 50% px;
+  height: auto;
+  border: 2px solid blanchedalmond;
+  color: aliceblue;
+  border-radius: 10px;
+  display: block;
+  justify-content: center;
+  align-content: center;
 }
 
-.separadorusado-caracteristicas{
-    background-color: blue;
-    height: 50px;
-    margin-top: 10px;
-    color: aliceblue;
-    padding: 10px;
-   }
-        
+.separadorusado-caracteristicas {
+  background-color: blue;
+  height: 50px;
+  margin-top: 10px;
+  color: aliceblue;
+  padding: 10px;
+}
+
 /*---- formulario de contactos con bts------*/
-.formulario-bts{
-    margin: 15px auto; 
-    width: 80%;
-    padding: 10px;
-    background-color: blue;
-    border-radius: 30px;
-    color: aliceblue;
+.formulario-bts {
+  margin: 15px auto;
+  width: 80%;
+  padding: 10px;
+  background-color: blue;
+  border-radius: 30px;
+  color: aliceblue;
 }
 
-.formulario-bts-info{
-    text-align: center;
-    font-size: 25px;
+.formulario-bts-info {
+  text-align: center;
+  font-size: 25px;
 }
 
-.nav-item{
-    color: blue;
+.nav-item {
+  color: blue;
 }
-
 
 /*---- carousel con bts------*/
-.carousel-usado{
-    width: auto;
-    height: auto;
-    margin: 15px auto;
-    
-    
+.carousel-usado {
+  width: auto;
+  height: auto;
+  margin: 15px auto;
 }
-
-
-
 
 /*---- footer con bts------*/
-
-.footer_text{
-    color: aliceblue;
-    text-decoration: none;
-
+.footer_text {
+  color: aliceblue;
+  text-decoration: none;
 }
-
-
-
-
-
-
-

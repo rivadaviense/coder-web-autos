@@ -1,0 +1,27 @@
+{
+  "name": "coder-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1","build-css": 
+    "node-sass --include-path scss ./src/scss/style.scss ./asset/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rivadaviense/coder-web-autos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rivadaviense/coder-web-autos/issues"
+  },
+  "homepage": "https://github.com/rivadaviense/coder-web-autos#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
