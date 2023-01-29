@@ -1,17 +1,5 @@
-
 @import "reset";
-@import "navegador";
-@import "separador";
-@import "boton.wht";
-@import "btn";
-@import "header.buscador";
-@import "login";
-@import "formulario";
-@import "separador.usado";
-@import "carousel";
-@import "caja.datos";
-@import "estructura";
-@import "footer";
+@import "navbar";
 
 
 
@@ -28,29 +16,48 @@ body{
     background-color: rgb(166, 205, 240);
 }
 
-.navbar {
+
+.navbar{
+    background-color: blue;
     padding: 10px;
-    background-color: rgb(18, 10, 231);
-  }
-  .navbar .nav-link {
+    font-size: 20px;
+    margin-bottom: 1px solid white;
+  
+} 
+.boton-vender{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    text-decoration: none;
+
+
+}
+
+.navbar .nav-link {
     color: aliceblue;
   }
   .navbar .nav-item {
     color: blue;
   }
-  .navbar nav.toggler {
-    color: rgb(3, 117, 216);
-  }
+
+  
   @media screen and (max-width: 767px) {
     .navbar .navbar-brand {
       display: none;
     }
   }
 
-  
-
-
-
+  .caja{
+    width: 75%;
+    height: 220px;
+    border-radius: 5px;
+    background-color: rgb(99, 182, 235);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
   
 /*-----separador con bts-------*/
 .sepa_pp{
@@ -58,13 +65,82 @@ body{
     width: auto;
     height: 50px;
     color: aliceblue;
-    padding: 15px;
+    padding: 10px;
     font-size: 45px;
     margin-top: 15px;
+    text-align: center;
+}
+
+.buscador-filtro{
+    text-align: center;
+    height: 370px;
+    border-radius: 5px;
+    background-color: rgb(99, 182, 235);
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 
+/*-----contenedor contactos-------*/
 
+.contenedor-contactos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    width: 85%;
+    height: 200px;
+    border-radius: 8px;
+    border: 1px solid blue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mini-card{
+    border: 2px dashed white;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    background-color: blue;
+    height: 175px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.mini-card h2{
+    font-size: 30px;
+
+}
+.mini-card i{
+    font-size: 40px;
+}
+
+/*-----pagina contactos-------*/
+.contacto-formulario{
+    background: linear-gradient(rgba(29, 71, 222, 0.86), rgb(236, 238, 249));
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.formulario{
+ color: blue;
+ font-style: bold;
+}
+.formulario h2{
+    color: aliceblue;
+    font-style: bold;
+    text-align: center;
+}
+.formulario p{
+    color: aliceblue;
+    font-style: bold;
+    text-align: center;
+}
+.img-contacto{
+    background-image: url(../imagenes/asis.png);
+    position: center center;
+}
 
 /*-----buscador header con bts-------*/
 .header-buscador{
@@ -78,14 +154,38 @@ body{
    margin: auto;
    
 }
+
+.separador-usados{
+    text-align: center;
+    background-color: rgba(240, 255, 255, 0.377);
+
+}
     
 
-.separador-bts h4{
-    font-size: 20px;
-    color: aliceblue
-   
+/*-----vende-------*/
+.contenedor-vender{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(114, 182, 241);
+    width: 85%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid blue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+.contenedor-vender h3{
+    text-align: center;
 }
+.contenedor-vender h5{
+    text-align: center;
+}
+.color-con{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: bisque;
 
+}
 .caja-datos{
     margin-top: 5px;
     background-color: aliceblue;
@@ -144,22 +244,32 @@ body{
     font-size: 15px;
     text-decoration: none;
   }
+  .mini-usado{
+    background-color: aliceblue;
+    border: 2px solid blue;
+    color: blue;
+     
+    align-items: center;
+    justify-content: center;
 
+  }
 
 /*-----login con bts-------*/
 .contenedor-login{
-    margin: 20px auto;
-    background-color: blue;
-    width: 50%px;
-    height: auto;
-    border: 2px solid blanchedalmond;
-    color: aliceblue;
-    border-radius: 10px;
-    display: block; 
-    justify-content: center;
-    align-content: center;
-  
+    margin-top: 30px;
+   
+    padding: 40x;
+    background: linear-gradient(rgba(29, 71, 222, 0.86), rgb(236, 238, 249));
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+.img-login{
+    background-image: url(../imagenes/logeo10.png);
+   position: center center;
+ }
+
 
 .separadorusado-caracteristicas{
     background-color: blue;
@@ -202,14 +312,19 @@ body{
 
 
 /*---- footer con bts------*/
+.footer-bts{
+    margin-top: 60px;
+}
+.footer-bts i{
+    font-size: 25px;
+    margin-left: 10px;
 
+}
 .footer_text{
     color: aliceblue;
     text-decoration: none;
 
 }
-
-
 
 
 
