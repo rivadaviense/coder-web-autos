@@ -1,13 +1,15 @@
 .contenedor-login{
-    margin: 20px auto;
-    background-color: blue;
-    width: 50%px;
-    height: auto;
-    border: 2px solid blanchedalmond;
-    color: aliceblue;
-    border-radius: 10px;
-    display: block; 
-    justify-content: center;
-    align-content: center;
-  
+    margin-top: 30px;
+    padding: 40x;
+    background: linear-gradient(rgba(29, 71, 222, 0.86), rgb(236, 238, 249));
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+     .img-login{
+        background-image: url(../imagenes/logeo10.png);
+       position: center center;
+     }
 }
+
+ 

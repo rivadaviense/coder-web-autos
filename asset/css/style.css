@@ -4,21 +4,190 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(166, 205, 240);
-}
-
 .navbar {
   background-color: blue;
   padding: 10px;
   font-size: 20px;
+  margin-bottom: 1px solid white;
+}
+.navbar .navbar .nav-link {
+  color: aliceblue;
+}
+.navbar .navbar .nav-item {
+  color: blue;
+}
+@media screen and (max-width: 767px) {
+  .navbar .navbar .navbar-brand {
+    display: none;
+  }
 }
 
-.boton-vender {
+body {
+  background-color: rgb(166, 205, 240);
+}
+
+.boton-wht {
+  padding: 15px;
+  margin: 15px auto;
+  background-color: darkgreen;
+  font-size: 20px;
+}
+
+.carousel-usado {
+  width: auto;
+  height: auto;
+  margin: 15px auto;
+}
+
+.footer-bts {
+  margin-top: 60px;
+}
+
+.footer-bts i {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.footer_text {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.caja-datos {
+  margin-top: 5px;
+  background-color: aliceblue;
+  border: 3px solid blue;
+}
+
+.contacto-formulario {
+  background: linear-gradient(rgba(29, 71, 222, 0.86), rgb(236, 238, 249));
+  width: 85%;
   padding: 10px;
   border-radius: 5px;
-  background-color: antiquewhite;
-  text-decoration: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.formulario {
+  color: blue;
+  font-style: bold;
+}
+
+.formulario h2 {
+  color: aliceblue;
+  font-style: bold;
+  text-align: center;
+}
+
+.formulario p {
+  color: aliceblue;
+  font-style: bold;
+  text-align: center;
+}
+
+.img-contacto {
+  background-image: url(../imagenes/asis.png);
+  position: center center;
+}
+
+.header-buscador {
+  padding: 5px;
+  height: 50px;
+  background-color: rgb(223, 223, 223);
+}
+.header-buscador .buscador-bts {
+  width: 70%;
+  margin: auto;
+}
+
+header-info {
+  color: beige;
+  justify-content: center;
+  align-items: center;
+}
+header-info .fondo_header {
+  background-image: url(../imagenes/header.jpg);
+  background-size: cover;
+  color: aliceblue;
+}
+header-info .header-info-titulo {
+  font-size: 100px;
+}
+header-info .header-info-subtitulo {
+  font-size: 40px;
+}
+
+.contenedor-login {
+  margin-top: 30px;
+  padding: 40x;
+  background: linear-gradient(rgba(29, 71, 222, 0.86), rgb(236, 238, 249));
+  width: 85%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.contenedor-login .img-login {
+  background-image: url(../imagenes/logeo10.png);
+  position: center center;
+}
+
+.sepa_pp {
+  background-color: blue;
+  width: auto;
+  height: 50px;
+  color: aliceblue;
+  padding: 10px;
+  font-size: 45px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.filtros-card {
+  height: 800px;
+  padding: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(166, 205, 240);
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 255, 0.629);
+  position: fixed;
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading i {
+  color: white;
+  font-size: 64px;
+  animation-name: rotar;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotar {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+.navbar {
+  background-color: blue;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 1px solid white;
 }
 
 .navbar .nav-link {
@@ -34,6 +203,7 @@ body {
     display: none;
   }
 }
+/*-----loading-------*/
 .caja {
   width: 75%;
   height: 220px;
@@ -44,6 +214,13 @@ body {
   padding: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.boton-vender {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  text-decoration: none;
 }
 
 /*-----separador con bts-------*/

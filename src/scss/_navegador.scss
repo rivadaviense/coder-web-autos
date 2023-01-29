@@ -1,20 +1,21 @@
-.navbar {
-    padding: 10px;
-    background-color: rgb(18, 10, 231);
-    .nav-link {
-        color: aliceblue;
-      }
-    .nav-item {
-        color: blue;
-      }
-   
-    nav.toggler {
-        color: rgb(3, 117, 216);
-      }
-    @media screen and (max-width: 767px) {
-        .navbar .navbar-brand {
-        display: none;
-      }
-      }
-
+.navbar{
+  background-color: blue;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 1px solid white;
+  .navbar .nav-link {
+    color: aliceblue;
   }
+  .navbar .nav-item {
+    color: blue;
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+    .navbar .navbar-brand {
+      display: none;
+    }
+  }
+} 
+
+

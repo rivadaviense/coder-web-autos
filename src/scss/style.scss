@@ -1,7 +1,16 @@
 @import "reset";
-@import "navbar";
-
-
+@import "navegador";
+@import "estructura";
+@import "boton.wht";
+@import "carousel";
+@import "footer";
+@import "caja.datos";
+@import "formulario";
+@import "header.buscador";
+@import "header";
+@import "login";
+@import "separador";
+@import "tarjeta";
 
 
 *{
@@ -16,22 +25,38 @@ body{
     background-color: rgb(166, 205, 240);
 }
 
+.loading{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0.629);
+    position: fixed;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .loading i{
+    color: white;
+    font-size: 64px;
+    animation-name: rotar;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes rotar{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+  }
 
 .navbar{
     background-color: blue;
     padding: 10px;
     font-size: 20px;
     margin-bottom: 1px solid white;
-  
 } 
-.boton-vender{
-    padding: 10px;
-    border-radius: 5px;
-    background-color: antiquewhite;
-    text-decoration: none;
-
-
-}
 
 .navbar .nav-link {
     color: aliceblue;
@@ -47,6 +72,9 @@ body{
     }
   }
 
+  /*-----loading-------*/
+
+  
   .caja{
     width: 75%;
     height: 220px;
@@ -59,6 +87,12 @@ body{
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   }
   
+  .boton-vender{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    text-decoration: none;
+    }
 /*-----separador con bts-------*/
 .sepa_pp{
     background-color: blue;
@@ -257,7 +291,6 @@ body{
 /*-----login con bts-------*/
 .contenedor-login{
     margin-top: 30px;
-   
     padding: 40x;
     background: linear-gradient(rgba(29, 71, 222, 0.86), rgb(236, 238, 249));
     width: 85%;

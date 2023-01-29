@@ -1,14 +1,28 @@
-ormulario-bts{
-    margin: 15px auto; 
-    width: 80%;
+.contacto-formulario{
+    background: linear-gradient(rgba(29, 71, 222, 0.86), rgb(236, 238, 249));
+    width: 85%;
     padding: 10px;
-    background-color: blue;
-    border-radius: 30px;
-    color: aliceblue;
-    .formulario-bts-info{
-        text-align: center;
-        font-size: 25px;
-    }
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+.formulario{
+ color: blue;
+ font-style: bold;
+}
+.formulario h2{
+    color: aliceblue;
+    font-style: bold;
+    text-align: center;
+}
+.formulario p{
+    color: aliceblue;
+    font-style: bold;
+    text-align: center;
+}
+.img-contacto{
+    background-image: url(../imagenes/asis.png);
+    position: center center;
+}
+
 
 
